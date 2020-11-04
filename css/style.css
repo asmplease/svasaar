@@ -25,13 +25,17 @@ body a:hover {
 body a:focus, a:hover {
 	text-decoration: none;
 }
-
-input[type="button"],input[type="submit"]{
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
+.btn-info {
+    color: #fff;
+    background-color: #a35e4d !important;
+    border-color: #a35e4d !important;
+}
+input[type="button"], input[type="submit"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;	
@@ -126,16 +130,16 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 .w3-oneimg,.w3-twoimg,.w3-threeimg,.w3-fourimg{  background-size: cover;
     min-height: 800px;}
 .w3-oneimg {
-    background: url(../images/Svasaar_Page_03.png)no-repeat center;
+    background: url(../images/layer1.jpg)no-repeat center;
 }
 .w3-twoimg {
-    background: url(../images/Svasaar_Page_04.png)no-repeat center;
+    background: url(../images/layer2.jpg)no-repeat center;
 }
 .w3-threeimg {
-    background: url(../images/Svasaar_Page_05.png)no-repeat center;
+    background: url(../images/layer4.jpg)no-repeat center;
 }
 .w3-fourimg {
-    background: url(../images/Svasaar_Page_14.png)no-repeat center;
+    background: url(../images/layer3.jpg)no-repeat center;
 }
 #slider {
 	box-shadow: none;
